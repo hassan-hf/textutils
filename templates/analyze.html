@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content  %}
+
+
+<!Doctype html>
+<html lang='en'>
+<head>
+    <title>Analyzing your Text...</title>
+</head>
+<body>
+    <div class="container">
+    <h1 class="bg-success text-center">Your Analyzed Text - {{purpose}}</h1>
+    <p class="text-primary">
+        <pre>{{analyzed_text}}</pre>
+
+    </p>
+</div>
+</body>
+
+</html>
+{% endblock  %}
